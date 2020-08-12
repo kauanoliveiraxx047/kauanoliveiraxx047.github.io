@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Introdução ao CSS</title>
+     <!-- Dentro da cabeça do documento-->
+   <style>
+    /*Pedaço de CSS dentro do HTML*/
+    body {
+        background-color: blue;
+        color: cyan;
+    }
+</style>
+
+
+</head>
+<body>
+    <h1>Aula 04 - Introdução ao CSS(Continuação)</h1>
+    <h2>CSS significa - Cascading Style Sheet</h2>
+    <h2>Folha de Estilo em Cascata</h2>
+
+    <img id="imgPrincipal"
+        src="images/html-css-js.jpg" 
+        alt="Logotipo HTML CSS e JS"        
+        height="400" width="800"
+    />
+    <br> <!--Quebra de linha-->
+    <img class="logo"
+         src="images/logo-html-640.png" 
+         alt="Logotipo HTML"
+         height="320" width="320"
+    />
+    <img class="logo"
+         src="images/logo-css-640.png" 
+         alt="Logotipo CSS"
+         height="320" width="320"
+    />
+    <img class="logo"
+         src="images/logo-js-640.png" 
+         alt="Logotipo JS"
+         height="320" width="320"
+    />
+
+    <p>
+        O empenho em analisar a expansão dos mercados mundiais garante a contribuição de um grupo importante na determinação do investimento em reciclagem técnica.
+    </p>
+    
+    
+    <!-- estilo inline -->
+        <p style="color:tomato; font-size: 20px;">
+            Todavia, o desafiador cenário globalizado obstaculiza a apreciação da
+            <span style="color:yellow; font-weight: bold;">importância </span>
+            de todos os recursos funcionais envolvidos.
+        </p>
+    
+    <p>
+        Podemos já vislumbrar o modo pelo qual o julgamento imparcial das eventualidades nos obriga à análise do levantamento das variáveis envolvidas.
+    </p>
+
+    <h1>Lorem Ipsum</h1>
+    <article class="container"> <!--Container-->
+        <!--Parágrafos filhso de container-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada ullamcorper lacus ac gravida. Fusce id euismod eros. Nam lacinia vitae nisi et imperdiet. </p>
+  
+        <p>Fusce fringilla augue arcu, pharetra vulputate erat scelerisque non. Nam pellentesque massa id quam convallis finibus. Suspendisse congue aliquam lacus, vel consequat massa tempus sed. </p>
+  
+        <p>Integer justo tellus, efficitur et nulla et, iaculis semper nulla. Donec id odio tempor, porta turpis et, volutpat nisl. Donec sem risus, congue ut pharetra sed, rhoncus sit amet mi.</p>
+  
+        <p>Generated 3 paragraphs, 290 words, 1952 bytes of Lorem Ipsum</p>
+    </article>
+    
+    /*p descendente de container*/
+       .container p {
+           color:lightslategrey;
+           font-size:small;
+           font-style: italic;
+           text-shadow: none;
+       }
+       .container{
+           background-color: lightcyan;           
+           width: 640px;
+           /*Centralizando o container*/
+           display: block;
+           margin: 0 auto;
+           border:5px solid black;
+           border-radius: 5px;
+           padding: 15px;
+           box-shadow: 0 0 20px chartreuse;
+           line-height: 20px;
+
+
+</body>
+</html>
