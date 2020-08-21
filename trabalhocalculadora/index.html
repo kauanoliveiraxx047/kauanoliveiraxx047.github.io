@@ -1,0 +1,43 @@
+<html>
+   <head>
+      <title>Aula</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="css/estilo.css">
+      
+<script src="js/main.js"></script>
+
+<form id="frm"  >
+    <div id="container">
+       <div id="topo"> 
+          <h1>Calculadora</h1>
+       </div>
+       <div id="menu">
+       </div>
+       <div id="left">
+          <div class="bloco">
+             <span>Nome:</span>
+             <input type="text" name="txtnome" placeholder="Introduza o seu nome">
+             <input id="enviar" type="button" value="Enviar" onClick="ola('Ola')">
+          </div>
+          <div class="bloco1">
+             <span>Introduza os numeros:</span><br>
+             <input type="text" size="2" id="n1" placeholder="n1"><br>
+             <input type="text" size="2"  id="n2" placeholder="n2"><br><br>
+             <input type="button" value="+" onClick="calc(this)">
+             <input type="button" value="-" onClick="calc(this)">
+             <input type="button" value="*" onClick="calc(this)">
+             <input type="button" value="/" onClick="calc(this)">
+             <br><br>
+             <input type="button" value="Limpar" onClick="limpar()"/>
+             <input type="button" value="Enviar" onClick="ola('Ola')">
+          </div>
+       </div>
+       <div id="right">
+          <img id="mario1" src="Image/mario1.jpg" alt=""/>
+          <img id="mario2" src="Image/mario2.jpg" alt=""/>      
+       </div>
+       <div id="bottom">
+       </div>
+    </div>
